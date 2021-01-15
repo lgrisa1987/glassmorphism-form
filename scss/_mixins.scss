@@ -1,0 +1,16 @@
+@mixin d-flex-all-center{
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+}
+@mixin glass-effect{
+      border: 1px solid rgba(255, 255, 255, .5);
+      border-bottom: 1px solid rgba(255, 255, 255, .2);
+      border-right: 1px solid rgba(255, 255, 255, .2);
+}
